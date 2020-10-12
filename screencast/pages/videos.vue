@@ -1,5 +1,8 @@
 <template>
+<div class="videos">
   <h1>videos</h1>
+  <div v-for="video in videos" :key="video.id"></div>
+</div>
 </template>
 
 <script>
