@@ -2,7 +2,7 @@
 <div class="videos">
   <h1>videos</h1>
   <div v-for="video in videos" :key="video.id"></div>
-  {{video.name}}
+  {{videos.id}}
 </div>
 </template>
 
@@ -22,11 +22,11 @@ export default {
                 {
                     id: '10',
                     name: 'Advanced concepts'
-                    
-                },
+
+                }
             ]
         }
-    }
+    },
 }
 </script>
 
