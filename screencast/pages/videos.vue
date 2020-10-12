@@ -2,15 +2,15 @@
 <div class="videos">
   <h1>videos</h1>
   <div v-for="video in videos" :key="video.id"></div>
-  <p>{{video.name}}</p>
+  <p>{{videos.name}}</p>
 </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return{
-            videos: [
+    name: 'videos',
+    props: {
+        videos: [
                 {
                     id: "16",
                     name: "Intro in Nuxt"
@@ -25,11 +25,11 @@ export default {
 
                 }
             ]
-        }
-    },
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 
 </style>
+
