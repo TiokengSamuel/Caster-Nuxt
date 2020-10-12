@@ -12,16 +12,16 @@ export default {
         return{
             videos: [
                 {
-                    id: '16',
-                    name: 'Intro in Nuxt'
+                    id: "16",
+                    name: "Intro in Nuxt"
                 },
                 {
-                    id: '21',
-                    name: 'Intro in Vue'
+                    id:"1",
+                    name: "Intro in Vue"
                 },
                 {
-                    id: '10',
-                    name: 'Advanced concepts'
+                    id: "10",
+                    name: "Advanced concepts"
 
                 }
             ]
