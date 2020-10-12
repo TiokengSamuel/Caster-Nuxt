@@ -2,7 +2,7 @@
 <div class="videos">
   <h1>videos</h1>
   <div v-for="video in videos" :key="video.id"></div>
-  {{videos.name}}
+  {{video.name}}
 </div>
 </template>
 
