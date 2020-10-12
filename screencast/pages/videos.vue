@@ -2,6 +2,7 @@
 <div class="videos">
   <h1>videos</h1>
   <div v-for="video in videos" :key="video.id"></div>
+  {{video.name}}
 </div>
 </template>
 
@@ -16,11 +17,12 @@ export default {
                 },
                 {
                     id: '21',
-                    name: 'Intro in Nuxt'
+                    name: 'Intro in Vue'
                 },
                 {
                     id: '10',
-                    name: 'Intro in Nuxt'
+                    name: 'Advanced concepts'
+                    
                 },
             ]
         }
