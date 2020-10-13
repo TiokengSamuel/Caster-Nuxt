@@ -10,8 +10,7 @@
 export default {
     data() {
         return{
-            videos: [
-                {
+            videos: [{
                     id: "16",
                     name: "Intro in Nuxt"
                 },
@@ -23,8 +22,7 @@ export default {
                     id: "10",
                     name: "Advanced concepts"
 
-                }
-            ]
+                }]
         }
     },
 }
