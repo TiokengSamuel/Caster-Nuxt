@@ -1,6 +1,6 @@
 <template>
 <div class="videos">
-  <nuxt-child />
+  <p><nuxt-child /></p>
   <h1>videos</h1>
   <div v-for="video in videos" :key="video.id">
     <p>{{video.name}}</p>
