@@ -1,5 +1,7 @@
 <template>
-  
+  <div>
+      We're in video 1
+  </div>
 </template>
 
 <script>
