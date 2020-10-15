@@ -1,6 +1,6 @@
 <template>
   <div>
-      We are in the first
+      <p>I am the first child</p>
   </div>
 </template>
 
