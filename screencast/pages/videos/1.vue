@@ -1,7 +1,6 @@
 <template>
   <div>
       We are in the first
-    
   </div>
 </template>
 
@@ -11,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+</style>>
 
 </style>
