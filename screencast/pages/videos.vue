@@ -1,5 +1,9 @@
 <template>
-  <nuxt-child/>
+ <div>
+     I'm in videos.vue 
+     <nuxt-child/>
+ </div>
+  
 </template>
 
 <script>
