@@ -1,6 +1,6 @@
 <template>
   <div>
-      We are in video 1
+      We are in video {{$route.params.id}}
   </div>
 </template>
 
