@@ -1,6 +1,6 @@
 <template>
   <div>
-      <nuxt-child :video="video"></nuxt-child>
+      <nuxt-child :video="video"/>
   </div>
 </template>
 
