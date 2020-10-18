@@ -23,6 +23,11 @@ export default {
                 }]
         }
     },
+    computed: {
+      videos() {
+        return this.videos.find(v => v.id)
+      }
+    }
 }
 </script>
 
