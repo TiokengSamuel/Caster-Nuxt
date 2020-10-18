@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    props: ['videos']
+    props: ['video']
 }
 </script>
 
