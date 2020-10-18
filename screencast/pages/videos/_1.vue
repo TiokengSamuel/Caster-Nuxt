@@ -1,6 +1,6 @@
 <template>
   <div>
-      <p>I am the first child</p>
+      We are in video 1
   </div>
 </template>
 
