@@ -1,5 +1,7 @@
 <template>
-  
+  <div>
+      <nuxt-child :video="video"/>
+  </div>
 </template>
 
 <script>
