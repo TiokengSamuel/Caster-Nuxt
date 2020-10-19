@@ -1,7 +1,5 @@
 <template>
-  <div>
-      <nuxt-child :video="video"/>
-  </div>
+  
 </template>
 
 <script>
@@ -23,11 +21,6 @@ export default {
                 }]
         }
     },
-    computed: {
-      videos() {
-        return this.videos.find(v => v.id == this.$route.params.id)
-      }
-    }
 }
 </script>
 
