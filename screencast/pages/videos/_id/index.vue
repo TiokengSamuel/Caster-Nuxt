@@ -1,6 +1,6 @@
 <template>
   <div>
-      We are in video {{video.name}}
+      We are in video {{ video.name }}
   </div>
 </template>
 
